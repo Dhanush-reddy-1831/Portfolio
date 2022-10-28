@@ -1,33 +1,9 @@
-/*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
-
-   TOC:
-   a. General Styles
-   b. Header Styles
-   c. About Section
-   d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
-
-===================================================================== */
-
-/* ------------------------------------------------------------------ */
-/* a. General Styles
-/* ------------------------------------------------------------------ */
-
 body {
    background: #0f0f0f;
 }
 
 /* ------------------------------------------------------------------ */
-/* b. Header Styles
+/*  Header Styles
 /* ------------------------------------------------------------------ */
 
 header {
@@ -747,7 +723,6 @@ ul#nav li.current a {
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
 
-/* content at start */
 .mfp-fade.mfp-wrap .mfp-content .popup-modal {
    opacity: 0;
    -webkit-transition: all 200ms ease-in-out;
@@ -757,12 +732,12 @@ ul#nav li.current a {
    transition: all 200ms ease-in-out;
 }
 
-/* content fadein */
+
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
    opacity: 1;
 }
 
-/* content fadeout */
+
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
 }
@@ -923,7 +898,7 @@ call-to-action .button {
 /* Flex Slider
 /* ------------------------------------------------------------------ */
 
-/* Reset */
+
 .flexslider a:active,
 .flexslider a:focus {
    outline: none;
@@ -958,19 +933,18 @@ call-to-action .button {
    position: relative;
 }
 
-/* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides>li {
    display: none;
    -webkit-backface-visibility: hidden;
 }
 
-/* Suggested container for slide animation setups. Can replace this with your own */
+
 .flex-container {
    zoom: 1;
    position: relative;
 }
 
-/* Clearfix for .slides */
+
 .slides:before,
 .slides:after {
    content: " ";
@@ -981,9 +955,7 @@ call-to-action .button {
    clear: both;
 }
 
-/* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
+
 .no-js .slides>li:first-child {
    display: block;
 }

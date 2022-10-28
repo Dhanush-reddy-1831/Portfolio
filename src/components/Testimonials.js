@@ -26,14 +26,10 @@ export default class Testimonials extends Component {
                       );
                     })}
                 </ul>
-              </div>{" "}
-              {/* div.flexslider ends */}
-            </div>{" "}
-            {/* div.flex-container ends */}
-          </div>{" "}
-          {/* row ends */}
-        </div>{" "}
-        {/* text-container ends */}
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     );
   }
